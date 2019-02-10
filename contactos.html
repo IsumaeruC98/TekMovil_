@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Contactos</title>
+		<meta name="viewport" content="width=device-width,inicial-scale=1,maximum-scale=1">
+		<link rel="stylesheet" href="css/reset.css" type="text/css">
+		<link rel="stylesheet" href="css/estiloMenu.css" type="text/css">
+		<link rel="stylesheet" href="css/estiloContacto.css" type="text/css">
+
+		<style type="text/css">
+			/* Selector de Identificación */
+			li#info {
+				position: relative;
+			}
+			
+			/* Selector de Clase */
+			ul.submenu {
+				position:absolute;
+				z-index:2;
+				background:#34495E;
+				
+				visibility:hidden;
+				flex-direction: column;
+			}
+			
+			/* Pseudo Clase */
+			li#info:hover ul.submenu {
+			z-index:2;
+			visibility:visible;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<header> <!-- Inicio Encabezado -->
+			<h1>CONTACTOS</h1>
+		</header> <!-- Fin Encabezado -->
+
+		<div class="c_menu"> <!-- Inicio Menú -->
+			<input type="checkbox" id="boton_m">
+			<label for="boton_m"><img src="img/boton_menu.png" alt="boton"></label>
+			<nav class="menu">
+				<ul>
+					<li>
+						<a href="index.html">Inicio</a>
+					</li>
+
+					<li id="info">
+						<a href="informacion.html">Información</a>
+
+						<ul class="submenu">
+							<li>
+								<a href="informacion.html#software">Software</a>
+							</li>
+							<li>
+								<a href="informacion.html#procesador">Procesador</a>
+							</li>
+							<li>
+								<a href="informacion.html#pantalla">Pantalla</a>
+							</li>
+						</ul>
+					</li>
+
+					<li>
+						<a href="galeria.html">Galería</a>
+					</li>
+
+					<li>
+						<a href="videos.html">Vídeos</a>
+					</li>
+
+					<li>
+						<a href="contactos.html">Contactos</a>
+					</li>
+				</ul>
+			</nav>
+		</div><!-- Fin Menú -->
+
+		<section><!-- Inicio Contenido -->
+			<form action="#" method="post">
+				<h2>Contacto</h2>
+
+				<input type="email" name="correo" placeholder="Correo">
+				
+				<input type="password" name="contraseña" placeholder="Contraseña">
+				
+				<input type="text" name="nombre" placeholder="Nombre">
+
+				<input type="text" name="apellidos" placeholder="Apellidos">
+
+				<input type="text" name="telefono" placeholder="Telefono">
+
+				<select name="moviles" id="moviles">
+					<option value="movil">Seleccionar Móvil</option>
+					<option value="Google Pixel">Google Pixel</option>
+					<option value="Honor">Honor</option>
+					<option value="Huawei">Huawei</option>
+					<option value="Iphone">Iphone</option>
+					<option value="LG">LG</option>
+					<option value="One Plus">One Plus</option>
+					<option value="Oppo">Oppo</option>
+					<option value="Samsung">Samsung</option>
+					<option value="Sony">Sony</option>
+					<option value="Xiaomi">Xiaomi</option>
+				</select>
+
+				<textarea name="Mensaje" id="mensaje" placeholder="Coméntanos su experiencia de uso" cols="30" rows="10"></textarea>
+				
+				<input type="file" name="adjuntar_archivos">
+
+				<input type="submit" value="Enviar" id="boton">
+
+				<input type="reset" id="boton">
+			</form>
+
+			<div class="red_social">
+				<h3>Puedes Contactarnos en:</h3>
+				<ul>
+					<li>
+						<a href="https://es-la.facebook.com/" target="_blank">
+							<img src="img/facebook.png" alt="facebook" title="Facebook">
+						</a>
+					</li>
+					<li>
+						<a href="https://twitter.com/" target="_blank">
+							<img src="img/twitter.png" alt="twitter" title="Twitter">
+						</a>
+					</li>
+					<li>
+						<a href="https://www.instagram.com/?hl=es-la" target="_blank">
+							<img src="img/instagram.png" alt=instagram"" title="Instagram">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section><!-- Fin Contenido -->
+
+		<footer><!-- Inicio Pie de Página -->
+			<h4>Elaboración de Hojas de Estilo</h4>
+		</footer><!-- Fin Pie de Página -->
+
+		<!-- Audio -->
+		<embed src="media/audio_fondo.mp3" autostart="true" hidden="true" style="float: left;">
+	</body>
+</html>

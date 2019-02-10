@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+
+/* Selector Universal */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+/* Fuentes */
+@font-face {
+	font-family:"Arenq";
+	src: url(../fonts/Arenq.otf);
+}
+
+/* Selectores de Tipo o Etiqueta */
+body {
+	background-image: url(../img/fondo_1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+header {
+	width: 100%;
+	height: 80px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: rgba(23,32,42,0.8);
+	text-align: center;
+	font-family: Arenq;
+	font-size: 70px;
+	font-weight: bold;
+	color: #FF6500;
+}
+
+section {
+	width: 80%;
+	height: 1200px;
+	border:1px solid #000;
+	margin:0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background: -webkit-linear-gradient(rgba(230,230,230,0.9), rgba(200,200,200,0.9));
+	background: -o-linear-gradient(rgba(230,230,230,0.9), rgba(200,200,200,0.9));
+	background: linear-gradient(rgba(230,230,230,0.9), rgba(200,200,200,0.9));
+	box-shadow: 0px 0px 4px 4px rgba(0,0,0,0.3);
+}
+
+form {
+	width: 80%;
+	margin: auto;
+	margin-top: 70px;
+	padding: 15px;
+
+	background-color: rgba(0,0,0,0.4);
+	border:1px solid #000;
+	border-radius: 10px;
+}
+
+h2 {
+	padding: 10px;
+	margin-bottom: 10px;
+
+	font-size: 36px;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+	color: #FFF;
+}
+
+input {
+	width: 48%;
+}
+
+textarea {
+	min-width: 98%;
+	max-width: 98%;
+	min-height: 150px;
+	max-height: 300px;
+}
+
+input,textarea,select {	
+	margin-bottom: 20px;
+	border: none;
+	font-size: 17px;
+	padding: 7px;
+}
+
+footer {
+	clear: both;
+	width: 100%;
+	height: 90px;
+	background-color: #34495E;
+
+	text-align: center;
+	color: #FFF;
+}
+
+/* Selector de Clase */
+div.red_social {
+	width: 100%;
+	height: 250px;
+	margin-top: 30px;
+}
+
+/* Selector de Identificación */
+#boton {
+	width: 98%;
+	background-image: -webkit-linear-gradient(rgb(90,104,137), rgb(49,56,74));
+	background-image: -o-linear-gradient(rgb(90,104,137), rgb(49,56,74));
+	background-image: linear-gradient(rgb(90,104,137), rgb(49,56,74));
+	color: #FFF;
+	padding: 20px;	
+}
+
+/* Pseudo Clases */
+#boton:hover {
+	cursor: pointer;
+	background-image: -webkit-linear-gradient(rgb(49,56,74), rgb(90,104,137));
+	background-image: -o-linear-gradient(rgb(49,56,74), rgb(90,104,137));
+	background-image: linear-gradient(rgb(49,56,74), rgb(90,104,137));
+}
+
+select option:nth-child(1n) {
+	background-color: rgba(0,0,0,0.1);
+}
+
+select option:nth-child(2n) {
+	background-color: rgba(0,0,0,0.2);
+}
+
+/* Selectores Descendientes */
+div.red_social h3 {
+	font-size: 28px;
+	font-family: sans-serif;
+	text-align: center;
+	padding: 20px;
+}
+
+div.red_social ul li {
+	width: 10%;
+	float: left;
+	margin-left: 18%;
+	margin-top: 20px;
+}
+
+div.red_social ul li a img {
+	width: 100%;
+}
+
+footer h4 {
+	font-size: 20px;
+	font-family: sans-serif;
+	padding-top: 15px;
+}
+
+footer address {
+	font-size: 14px;
+	padding-top: 15px;
+}

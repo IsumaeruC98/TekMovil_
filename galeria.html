@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Galería</title>
+		<meta name="viewport" content="width=device-width,inicial-scale=1,maximum-scale=1">
+		<link rel="stylesheet" href="css/reset.css" type="text/css">
+		<link rel="stylesheet" href="css/estiloMenu.css" type="text/css">
+		<link rel="stylesheet" href="css/estiloGaleria.css" type="text/css">
+
+		<style type="text/css">
+			/* Selector de Identificación */
+			li#info {
+				position: relative;
+			}
+			
+			/* Selector de Clase */
+			ul.submenu {
+				position:absolute;
+				z-index:2;
+				background:#34495E;
+				
+				visibility:hidden;
+				flex-direction: column;
+			}
+			
+			/* Pseudo Clase */
+			li#info:hover ul.submenu {
+			z-index:2;
+			visibility:visible;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<header> <!-- Inicio Encabezado -->
+			<h1>GALERIA</h1>
+		</header> <!-- Fin Encabezado -->
+
+		<div class="c_menu"> <!-- Inicio Menú -->
+			<input type="checkbox" id="boton_m">
+			<label for="boton_m"><img src="img/boton_menu.png" alt="boton"></label>
+			<nav class="menu">
+				<ul>
+					<li>
+						<a href="index.html">Inicio</a>
+					</li>
+
+					<li id="info">
+						<a href="informacion.html">Información</a>
+
+						<ul class="submenu">
+							<li>
+								<a href="informacion.html#software">Software</a>
+							</li>
+							<li>
+								<a href="informacion.html#procesador">Procesador</a>
+							</li>
+							<li>
+								<a href="informacion.html#pantalla">Pantalla</a>
+							</li>
+						</ul>
+					</li>
+
+					<li>
+						<a href="galeria.html">Galería</a>
+					</li>
+
+					<li>
+						<a href="videos.html">Vídeos</a>
+					</li>
+
+					<li>
+						<a href="contactos.html">Contactos</a>
+					</li>
+				</ul>
+			</nav>
+		</div><!-- Fin Menú -->
+		
+		<section><!-- Inicio Contenido -->
+			<article>
+				<div class="subtitulo">
+					<h2>Gama Alta</h2>
+				</div>
+
+				<div class="c_galeria">
+					<ul>
+						<li>
+							<img src="img/Google_Pixel_3_XL.jpg" alt="Google_Pixel_3_XL">
+							
+							<span>Google Pixel 3 XL</span>
+						</li>
+						<li>
+							<img src="img/Honor_View_20.jpg" alt="Honor_View_20">
+							
+							<span>Honor View 20</span>
+						</li>
+						<li>
+							<img src="img/Huawei_Mate_20_Pro.jpg" alt="Huawei_Mate_20_Pro">
+							
+							<span>Huawei Mate 20 Pro</span>
+						</li>
+						<li>
+							<img src="img/Iphone_XS_Max.jpg" alt="Iphone_XS_Max">
+							
+							<span>Iphone XS Max</span>
+						</li>
+						<li>
+							<img src="img/LG_V40_ThinQ.jpg" alt="LG_V40_ThinQ">
+							
+							<span>LG V40 ThinQ</span>
+						</li>
+						<li>
+							<img src="img/One_Plus_6T.jpg" alt="One_Plus_6T">
+							
+							<span>One Plus 6T</span>
+						</li>
+						<li>
+							<img src="img/Oppo_Find_X.jpg" alt="Oppo_Find_X">
+							
+							<span>Oppo Find X</span>
+						</li>
+						<li>
+							<img src="img/Samsung_Galaxy_Note_9.jpg" alt="Samsung_Galaxy_Note_9">
+							
+							<span>Samsung Galaxy Note 9</span>
+						</li>
+						<li>
+							<img src="img/Sony_Xperia_XZ3.jpg" alt="Sony_Xperia_XZ3">
+							
+							<span>Sony Xperia XZ3</span>
+						</li>
+						<li>
+							<img src="img/Xiaomi_Mi_8_Pro.jpg" alt="Xiaomi_Mi_8_Pro">
+							
+							<span>Xiaomi Mi 8 Pro</span>
+						</li>
+						<li>
+							<img src="img/Xiaomi_Mi_Mix_3.jpg" alt="Xiaomi_Mi_Mix_3">
+							
+							<span>Xiaomi Mi Mix 3</span>
+						</li>
+					</ul>
+				</div>
+			</article>
+		</section><!-- FIn Contenido -->
+
+		<footer><!-- Inicio Pie de Página -->
+			<h4>Elaboración de Hojas de Estilo</h4>
+		</footer><!-- Fin Pie de Página -->
+	</body>
+</html>

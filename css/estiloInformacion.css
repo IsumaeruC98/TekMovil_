@@ -1,0 +1,351 @@
+@charset "utf-8";
+
+/* Selector Universal */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Fuentes */
+@font-face {
+	font-family:"Arenq";
+	src: url(../fonts/Arenq.otf);
+}
+
+@font-face {
+	font-family:"Metria";
+	src: url(../fonts/Metria.ttf);
+}
+
+@font-face {
+	font-family:"Ailerons-Regular";
+	src: url(../fonts/Ailerons-Regular.otf);
+}
+
+/* Selectores de Tipo o Etiqueta */
+body {
+	background-image: url(../img/fondo_1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+header {
+	width: 100%;
+	height: 80px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: rgba(23,32,42,0.8);
+	text-align: center;
+	font-family: Arenq;
+	font-size: 70px;
+	font-weight: bold;
+	color: #FF6500;
+}
+
+aside {
+	margin-top: 23%;
+	width: 13%;
+	height: 1200px;
+	box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.3);
+}
+
+section {
+	font-family:Arial;
+}
+
+h2 {
+	font-family:"Metria";
+	font-size:60px;
+	text-align:center;
+	font-weight: bold;
+	color: #FF6500;
+	
+	margin-bottom:15px;
+}
+
+h3 {
+	font-size:1.5em;
+	margin-left:15px;
+	padding:15px;
+}
+
+table {
+	font-size:0.8em;
+	text-align:center;
+	width:80%;
+	margin:0 auto;
+	border-collapse:collapse;
+}
+
+
+
+td,th {
+	padding:0.5em 0.75em;
+	background:#EAECEE;
+}
+
+/* Selectores de Clase */
+	/* Aside Izquierdo */
+aside.cont_izquierdo {
+	float: left;
+	background-color: rgba(255,255,255,0.2);
+}
+
+	/* Section */
+section.cont_central {
+	width: 70%;
+	height: 2400px;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: left;
+	background: -webkit-linear-gradient(rgba(230,230,230,0.9), rgba(200,200,200,0.9));
+	background: -o-linear-gradient(rgba(230,230,230,0.9), rgba(200,200,200,0.9));
+	background: linear-gradient(rgba(230,230,230,0.9), rgba(200,200,200,0.9));
+	box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.3);
+}
+
+	/* Aside Derecho */
+aside.cont_derecho {
+	float: right;
+	background-color: rgba(255,255,255,0.2);
+}
+
+	/* Footer */
+footer.pie_pag {
+	clear: both;
+	width: 100%;
+	height: 90px;
+	background-color: #34495E;
+
+	text-align: center;
+	color: #FFF;
+}
+
+div.software {
+	width:100%;
+	height:300px;
+	background-image:url(../img/android_ios.png);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	
+	position:relative;
+	float:left;
+}
+
+div.software h2 {
+	width:100%;
+	height:75%;
+	padding-top:75px;
+	background-color:rgba(0,0,0,0.4);
+	
+	position:absolute;
+	left:0;
+	top:0;
+}
+
+div.android,div.ios {
+	width:40%;
+	height:340px;
+	margin:30px 0px;
+	text-align:center;
+	color:#FFF;
+	border-radius:25px;
+	box-shadow:0px 0px 8px 2px rgba(0,0,0,0.5);
+	overflow-y:auto;
+}
+
+div.android {
+	float:left;
+	margin-left:5%;
+	background:-webkit-linear-gradient(rgb(164,196,57), rgba(118,124,97,0.9));
+	background:-o-linear-gradient(rgb(164,196,57), rgba(118,124,97,0.9));
+	background:linear-gradient(rgb(164,196,57), rgba(118,124,97,0.9));
+}
+
+div.ios {
+	float:right;
+	margin-right:5%;
+	background:-webkit-linear-gradient(rgb(153,153,153), rgba(191,191,191,0.9));
+	background:-o-linear-gradient(rgb(153,153,153), rgba(191,191,191,0.9));
+	background:linear-gradient(rgb(153,153,153), rgba(191,191,191,0.9));
+}
+
+div.hardware {
+	width:100%;
+	height:250px;
+	background-image:url(../img/Snapdragon_Qualcomm.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	
+	position:relative;
+	clear:both;
+}
+
+div.info_procesador {
+	padding: 20px;
+	text-align: justify;
+}
+
+.celdas {
+	text-align:left;
+	font-weight:bold;
+	font-size:1.125em;
+	padding-left:25px;
+	background:#AEB6BF;
+}
+
+div.pantalla {
+	width: 100%;
+	height: 500px;
+	text-align: justify;
+}
+
+div.amoled,div.ips {
+	width: 40%;
+	height: 150px;
+	margin-top: 25px;
+	padding: 5px;
+
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000;
+	border-radius: 5px;
+
+	resize: vertical;
+	overflow: auto;
+
+	min-height: 150px;
+	max-height: 350px;
+	background-color: #EAF2F8;
+}
+
+div.amoled {
+	float: left;
+	margin-left: 8%;
+}
+
+div.ips {
+	float: right;
+	margin-right: 8%;
+}
+/* Selectores de Pseudo Elementos */
+p::first-letter {
+	font-size: 20px;
+	font-weight: bold;
+	color: #EBAA60;
+	margin-left: 5px;
+}
+
+/* Selectores Desendientes */
+
+aside figure {
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+aside figure h5 {
+	color: #FF6500;
+	font-family:"Ailerons-Regular";
+	font-size: 24px;
+	text-align: center;
+	margin-top: 150px;
+}
+
+aside figure img {
+	width: 100%;
+	margin-top: 80px;
+	opacity: 0.8;
+}
+
+div.android h3,div.ios h3 {
+	margin:0;
+	background-color:rgba(0,0,0,0.2);
+	border-radius:25px 25px 0px 0px;
+}
+
+div.android p,div.ios p {
+	text-align:justify;
+	padding:5px;
+}
+
+div.hardware h2 {
+	width:100%;
+	height:70%;
+	padding-top:75px;
+	background-color:rgba(0,0,0,0.4);
+	
+	position:absolute;
+	left:0;
+	top:0;
+}
+
+div.info_procesador ul {
+	margin-left: 15px;
+	margin-top: 10px;
+	list-style: circle;
+}
+
+div.pantalla p {
+	padding: 15px;
+	font-size: 15px;
+}
+
+div.amoled h4,div.ips h4 {
+	text-align: center;
+	font-size: 22px;
+	padding: 5px;
+}
+
+div.amoled span,div.ips span {
+	font-weight: bold;
+	font-size: 18px;
+	padding: 5px;
+}
+
+div.amoled ul li,div.ips ul li {
+	list-style: circle;
+	margin-left: 25px;
+	margin-bottom: 5px;
+}
+
+footer h4 {
+	font-size: 20px;
+	font-family: sans-serif;
+	padding-top: 15px;
+}
+
+footer address {
+	font-size: 14px;
+	padding-top: 15px;
+}
+
+/* Barras Scroll */
+div.amoled::-webkit-scrollbar {
+	width: 15px;
+}
+div.amoled::-webkit-scrollbar-track {
+	background: #154360;
+}
+div.amoled::-webkit-scrollbar-thumb {
+	background: #F39C12;
+}
+div.amoled::-webkit-scrollbar-button {
+	background: #566573;
+}
+
+div.ips::-webkit-scrollbar {
+	width: 15px;
+}
+div.ips::-webkit-scrollbar-track {
+	background: #154360;
+}
+div.ips::-webkit-scrollbar-thumb {
+	background: #F39C12;
+}
+div.ips::-webkit-scrollbar-button {
+	background: #566573;
+}

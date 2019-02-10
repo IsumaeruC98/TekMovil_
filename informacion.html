@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Información</title>
+		<meta name="viewport" content="width=device-width,inicial-scale=1,maximum-scale=1">
+		<link rel="stylesheet" href="css/reset.css" type="text/css">
+		<link rel="stylesheet" href="css/estiloMenu.css" type="text/css">
+		<link rel="stylesheet" href="css/estiloInformacion.css" type="text/css">
+
+		<style type="text/css">
+			/* Selector de Identificación */
+			li#info {
+				position: relative;
+			}
+			
+			/* Selector de Clase */
+			ul.submenu {
+				position:absolute;
+				z-index:2;
+				background:#34495E;
+				
+				visibility:hidden;
+				flex-direction: column;
+			}
+			
+			/* Pseudo Clase */
+			li#info:hover ul.submenu {
+			z-index:2;
+			visibility:visible;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<header> <!-- Inicio Encabezado -->
+			<h1>INFORMACION</h1>
+		</header> <!-- Fin Encabezado -->
+
+		<div class="c_menu"> <!-- Inicio Menú -->
+			<input type="checkbox" id="boton_m">
+			<label for="boton_m"><img src="img/boton_menu.png" alt="boton"></label>
+			<nav class="menu">
+				<ul>
+					<li>
+						<a href="index.html">Inicio</a>
+					</li>
+
+					<li id="info">
+						<a href="informacion.html">Información</a>
+
+						<ul class="submenu">
+							<li>
+								<a href="informacion.html#software">Software</a>
+							</li>
+							<li>
+								<a href="informacion.html#procesador">Procesador</a>
+							</li>
+							<li>
+								<a href="informacion.html#pantalla">Pantalla</a>
+							</li>
+						</ul>
+					</li>
+
+					<li>
+						<a href="galeria.html">Galería</a>
+					</li>
+
+					<li>
+						<a href="videos.html">Vídeos</a>
+					</li>
+
+					<li>
+						<a href="contactos.html">Contactos</a>
+					</li>
+				</ul>
+			</nav>
+		</div><!-- Fin Menú -->
+		
+		<aside class="cont_izquierdo"><!-- Inicio Lateral Izquierdo -->
+			<figure>
+				<h5>Marcas Registradas</h5>
+				<img src="img/googlepixel.png" alt="googlepixel">
+				<img src="img/honor.png" alt="honor">
+				<img src="img/huawei.png" alt="huawei">
+				<img src="img/iphone.png" alt="iphone">
+				<img src="img/lg.png" alt="lg">
+			</figure>
+		</aside><!-- Fin Lateral Izquierdo -->
+
+		<section class="cont_central"><!-- Inicio Contenido -->
+			<article>
+				<div class="software">
+					<a name="software"></a>
+					<h2>SOFTWARE</h2>
+				</div>
+				
+				<!-- Android -->
+				<div class="android">
+					<h3>Android</h3><br>
+					
+					<p>
+						Es un sistema operativo basado en el núcleo Linux. Fue diseñado principalmente para dispositivos móviles con pantalla táctil, como teléfonos inteligentes, tabletas y también para relojes inteligentes, televisores y automóviles. Inicialmente fue desarrollado por Android Inc., empresa que Google respaldó económicamente y más tarde, en 2005, compró.
+					</p><br>
+					<p>
+						El primer móvil con el sistema operativo Android fue el HTC Dream y se vendió en octubre de 2008.
+					</p><br>
+					<p>
+						Android es el sistema operativo móvil más utilizado del mundo, con una cuota de mercado superior al 80 % al año 2017, muy por encima de IOS.
+					</p>
+				</div>
+				
+				<!-- IOS -->
+				<div class="ios">
+					<h3>IOS</h3><br>
+					
+					<p>
+						Es un sistema operativo móvil de la multinacional Apple Inc. Originalmente desarrollado para el iPhone (iPhone OS), después se ha usado en dispositivos como el iPod touch y el iPad. No permite la instalación de iOS en hardware de terceros.
+					</p><br>
+					
+					<p>
+						Actualmente es el segundo sistema operativo móvil más utilizado del mundo, detrás de Android, con una cuota de mercado de entre 10-15% al año 2017. La última versión del sistema operativo es iOS 12 aparecida en junio de 2018 sustituye a iOS 11 con el objetivo principal de mejorar la experiencia del usuario.
+					</p>
+				</div>
+			</article>
+
+			<article>
+				<div class="hardware">
+					<h2>HARDWARE</h2>
+				</div>
+
+				<div><!-- Procesador -->
+					<a name="procesador"></a>
+					<h3>Procesadores</h3>
+
+					<div class="info_procesador">
+						<p>
+							El procesador de nuestro móvil no es más que un conjunto de procesadores unidos en un único chip. En este chip, cada uno de ellos cumple una tarea específica, siendo todos ellos imprescindibles para el funcionamiento correcto del móvil.<br>
+							Entre ellos está:
+							<pre>	- CPU</pre>
+							<pre>	- GPU</pre>
+							<pre>	- NPU</pre>
+							<pre>	- Memoria RAM</pre>
+							<pre>	- Procesador de señal digital (DSP)</pre>
+							<pre>	- Procesador de señal de imagen (ISP)</pre>
+							<pre>	- Toda la conectividad</pre>
+							<pre>	- GPS, Glonass, Galileo y otros chips de localización</pre>
+							<pre>	- Chips de Seguridad</pre>
+							<pre>	- Carga rápida</pre>
+						</p>
+					</div>
+					<table><!-- Inicio Tabla -->
+						<th>
+							<td>Qualcomm Snapdragon 855</td>
+							<td>Mediatek Helio P90</td>
+							<td>Kirin 980</td>
+							<td>Exynos 9820</td>
+							<td>A12 Bionic</td>
+						</th>
+						<tr>
+							<td class="celdas" colspan="6">CPU</td>
+						</tr>
+						<tr>
+							<td>Arquitectura</td>
+							<td>64 bits</td>
+							<td>64 bits</td>
+							<td>64 bits</td>
+							<td>64 bits</td>
+							<td>64 bits</td>
+						</tr>
+						<tr>
+							<td>Núcleos Totales</td>
+							<td>8</td>
+							<td>8</td>
+							<td>8</td>
+							<td>8</td>
+							<td>6</td>
+						</tr>
+						<tr>
+							<td>Tecnología</td>
+							<td>7 nm Samsung</td>
+							<td>12 nm TSMC</td>
+							<td>7 nm TSMC</td>
+							<td>8 nm Samsung</td>
+							<td>7 nm TSMC</td>
+							</tr>
+						<tr>
+							<td>Fecha de presentación</td>
+							<td>5 de Diciembre de 2018</td>
+							<td>13 de Diciembre de 2018</td>
+							<td>31 de Agosto de 2018</td>
+							<td>14 de Noviembre de 2018</td>
+							<td>12 de Septiembre de 2018</td>
+						</tr>
+						<tr>
+							<td class="celdas" colspan="6">GPU</td>
+						</tr>
+						<tr>
+							<td>GPU</td>
+							<td>Adreno 640</td>
+							<td>PowerVR GM9446</td>
+							<td>Mali-G76 MP10</td>
+							<td>Mali-G76 MP12</td>
+							<td>Diseño propio de Apple</td>
+						</tr>
+						<tr>
+							<td>Velocidad</td>
+							<td>710MHz</td>
+							<td>970 MHz</td>
+							<td>720 MHz</td>
+							<td>650 MHz</td>
+							<td>1100 MHz</td>
+						</tr>
+						<tr>
+							<td class="celdas" colspan="6">Conectividad</td>
+						</tr>
+						<tr>
+							<td>LTE</td>
+							<td>Si</td>
+							<td>Si</td>
+							<td>Si</td>
+							<td>Si</td>
+							<td>Si</td>
+						</tr>
+						<tr>
+							<td>WiFi</td>
+							<td>802.11 ad, 802.11 ac MU-MIMO</td>
+							<td>802.11 ac</td>
+							<td>4x4 802.11 ac</td>
+							<td>802.11 ac</td>
+							<td>802.11 ac</td>
+						</tr>
+						<tr>
+							<td>Bluetooth</td>
+							<td>5.0</td>
+							<td>5.0</td>
+							<td>4.1</td>
+							<td>5.0</td>
+							<td>5.0</td>
+						</tr>
+						<tr>
+							<td>Otros</td>
+							<td>GPS, GLONASS, Galileo, Beidou, NFC</td>
+							<td>GPS, GLONASS, Galileo, Beidou, Radio FM</td>
+							<td>GPS, GLONASS, Galileo</td>
+							<td>GPS, GLONASS</td>
+							<td>GPS, GLONASS, NFC</td>
+						</tr>
+					</table><!-- Fin Tabla -->
+				</div>
+
+				<div class="pantalla"><!-- Pantallas -->
+					<a name="pantalla"></a>
+					<h3>Pantallas</h3>
+					<p>
+						Uno de los elementos principales de los smartphones y las tablets son las pantallas. Actualmente, existen tantas tecnologías como resoluciones de las mismas, pudiendo encontrarnos con paneles de tipo IPS, OLED, LCD y TFT, entre otros muchos. Sin embargo, los dos más conocidos y usados en el ámbito de la telefonía móvil son los IPS y OLED, en su variante de AMOLED.
+					</p>
+
+					<div class="amoled"><!-- Amoled -->
+						<h4>Amoled</h4><br>
+
+						<span>Ventajas</span>
+						<ul>
+							<li>
+								Los paneles son más delgados: permite dispositivos más delgados.
+							</li>
+							<li>
+								Sin necesidad de retroiluminación: esto elimina el costo, el grosor de los componentes, el espacio de ocupación y la demanda de energía.
+							</li>
+							<li>
+								Color negro intenso gracias a no recibir ningún tipo de retroiluminación.
+							</li>
+							<li>
+								Alta duración de la batería: un AMOLED consume menos energía que IPS.
+							</li>
+							<li>
+								Alto contraste: AMOLED proporciona mejores relaciones de contraste.
+							</li>
+						</ul>
+						<br>
+
+						<span>Desventajas</span>
+						<ul>
+							<li>
+								Producción costosa: la tecnología necesaria para desarrollar paneles AMOLED es muy costosa.
+							</li>
+							<li>
+								Imágenes de baja definición: las siluetas de los objetos son menos nítidas y, en su mayoría, se desvanecen en el fondo.
+							</li>
+							<li>
+								Bajo brillo: Y todos sabemos lo que esto significa: menos visibilidad a la luz del día o nublado al aire libre.
+							</li>
+							<li>
+								Baja vida útil: los paneles OLED y AMOLED se degradan más rápido que el IPS LCD. La mayoría de las estimaciones indican 14,000 horas como tiempo de vida del panel. En el caso de los teléfonos inteligentes no es un problema importante. 14,000 horas es equivalente a 8 horas diarias durante 5 años. Pero en general, el color azul es el primero que comienza a degradarse en AMOLED.
+							</li>
+							<li>
+								Impacto ambiental: los paneles AMOLED son difíciles y caros de reciclar.
+							</li>
+						</ul>
+					</div>
+
+					<div class="ips"><!-- IPS -->
+						<h4>IPS</h4><br>
+
+						<span>Ventajas</span>
+						<ul>
+							<li>
+								La mejor reproducción del color: las pantallas IPS tienen colores muy vivos y bien definidos.
+							</li>
+							<li>
+								Nitidez: las imágenes son claras y nítidas en teléfonos inteligentes con paneles IPS.
+							</li>
+							<li>
+								Mejor ángulo de visión: cuando se compara con los paneles AMOLED, el IPS proporciona un mejor ángulo de visión.
+							</li>
+							<li>
+								Color blanco intenso: un alto brillo, en comparación con AMOLED. La diferencia de intensidad es claramente visible, dejando al oponente más cerca de gris o blanco.
+							</li>
+							<li>
+								Tiempo de respuesta mejorado: el tiempo de respuesta es mejor cuando se compara con el TFT original y en promedio supera a los paneles AMOLED.
+							</li>
+						</ul>
+						<br>
+
+						<span>Desventajas</span>
+						<ul>
+							<li>
+								Necesita una luz de fondo fuerte: esto se traduce en un mayor consumo de energía, que es un punto débil en cualquier tipo de dispositivo. Esto da como resultado un drenaje de la batería mucho más rápido.
+							</li>
+							<li>
+								Consume más energía: no solo por la luz de fondo, sino por la arquitectura del panel, el requerimiento de energía es alto.
+							</li>
+							<li>
+								Terminales más gruesos: debido al requisito de retroiluminación, el fabricante tendrá que aumentar sus esfuerzos en la ingeniería interna o sacrificar algunos componentes para mantener la delgadez.
+							</li>
+						</ul>
+					</div>
+				</div>
+			</article>
+		</section><!-- FIn Contenido -->
+
+		<aside class="cont_derecho"><!-- Inicio Lateral Derecho -->
+			<figure>
+				<h5>Marcas Registradas</h5>
+				<img src="img/oneplus.png" alt="oneplus">
+				<img src="img/oppo.png" alt="oppo">
+				<img src="img/samsung.png" alt="samsung">
+				<img src="img/xiaomi.png" alt="xiaomi">
+				<img src="img/sony_xperia.png" alt="sony_xperia">
+			</figure>
+		</aside><!-- Fin Lateral Derecho -->
+
+		<footer class="pie_pag"><!-- Inicio Pie de Página -->
+			<h4>Elaboración de Hojas de Estilo</h4>
+		</footer><!-- Fin Pie de Página -->
+	</body>
+</html>

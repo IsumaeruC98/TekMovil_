@@ -1,0 +1,54 @@
+			Información
+		Software
+	Android
+Es un sistema operativo basado en el núcleo Linux. Fue diseñado principalmente para dispositivos móviles con pantalla táctil, como teléfonos inteligentes, tabletas y también para relojes inteligentes, televisores y automóviles. Inicialmente fue desarrollado por Android Inc., empresa que Google respaldó económicamente y más tarde, en 2005, compró.
+El primer móvil con el sistema operativo Android fue el HTC Dream y se vendió en octubre de 2008.
+Android es el sistema operativo móvil más utilizado del mundo, con una cuota de mercado superior al 80 % al año 2017, muy por encima de IOS.
+
+	IOS
+Es un sistema operativo móvil de la multinacional Apple Inc. Originalmente desarrollado para el iPhone (iPhone OS), después se ha usado en dispositivos como el iPod touch y el iPad. No permite la instalación de iOS en hardware de terceros.
+Actualmente es el segundo sistema operativo móvil más utilizado del mundo, detrás de Android, con una cuota de mercado de entre 10-15% al año 2017.  	La última versión del sistema operativo es iOS 12 aparecida en junio de 2018 sustituye a iOS 11 con el objetivo principal de mejorar la experiencia del usuario.
+ 
+		Hardware
+	Procesadores
+El procesador de nuestro móvil no es más que un conjunto de procesadores unidos en un único chip. En este chip, cada uno de ellos cumple una tarea específica, siendo todos ellos imprescindibles para el funcionamiento correcto del móvil.
+Entre ellos está: 
+•	CPU
+•	GPU
+•	NPU
+•	Memoria RAM
+•	Procesador de señal digital (DSP)
+•	Procesador de señal de imagen (ISP)
+•	Toda la conectividad
+•	GPS, Glonass, Galileo y otros chips de localización
+•	Chip de Seguridad
+•	Carga rápida
+	Qualcomm Snapdragon 855	Mediatek Helio P90	Kirin 980	Exynos 9820	A12 Bionic
+
+	Pantallas
+Uno de los elementos principales de los smartphones y las tablets son las pantallas. Actualmente, existen tantas tecnologías como resoluciones de las mismas, pudiendo encontrarnos con paneles de tipo IPS, OLED, LCD y TFT, entre otros muchos. Sin embargo, los dos más conocidos y usados en el ámbito de la telefonía móvil son los IPS y OLED, en su variante de AMOLED.
+
+	Ventajas de AMOLED
+Los paneles son más delgados: permite dispositivos más delgados.
+Sin necesidad de retroiluminación: esto elimina el costo, el grosor de los componentes, el espacio de ocupación y la demanda de energía.
+Color negro intenso gracias a no recibir ningún tipo de retroiluminación.
+Alta duración de la batería: un AMOLED consume menos energía que IPS.
+Alto contraste: AMOLED proporciona mejores relaciones de contraste.
+
+	Contras de AMOLED
+Producción costosa: la tecnología necesaria para desarrollar paneles AMOLED es muy costosa.
+Imágenes de baja definición: las siluetas de los objetos son menos nítidas y, en su mayoría, se desvanecen en el fondo.
+Bajo brillo: Y todos sabemos lo que esto significa: menos visibilidad a la luz del día o nublado al aire libre.
+Baja vida útil: los paneles OLED y AMOLED se degradan más rápido que el IPS LCD. La mayoría de las estimaciones indican 14,000 horas como tiempo de vida del panel. En el caso de los teléfonos inteligentes no es un problema importante. 14,000 horas es equivalente a 8 horas diarias durante 5 años. Pero en general, el color azul es el primero que comienza a degradarse en AMOLED. Impacto ambiental: los paneles AMOLED son difíciles y caros de reciclar.
+
+	Ventajas de IPS
+La mejor reproducción del color: las pantallas IPS tienen colores muy vivos y bien definidos.
+Nitidez: las imágenes son claras y nítidas en teléfonos inteligentes con paneles IPS.
+Mejor ángulo de visión: cuando se compara con los paneles AMOLED, el IPS proporciona un mejor ángulo de visión.
+Color blanco intenso: un alto brillo, en comparación con AMOLED. La diferencia de intensidad es claramente visible, dejando al oponente más cerca de gris o blanco.
+Tiempo de respuesta mejorado: el tiempo de respuesta es mejor cuando se compara con el TFT original y en promedio supera a los paneles AMOLED.
+
+Contras de IPS
+Necesita una luz de fondo fuerte: esto se traduce en un mayor consumo de energía, que es un punto débil en cualquier tipo de dispositivo. Esto da como resultado un drenaje de la batería mucho más rápido.
+Consume más energía: no solo por la luz de fondo, sino por la arquitectura del panel, el requerimiento de energía es alto.
+Terminales más gruesos: debido al requisito de retroiluminación, el fabricante tendrá que aumentar sus esfuerzos en la ingeniería interna o sacrificar algunos componentes para mantener la delgadez.

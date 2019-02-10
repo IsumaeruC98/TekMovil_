@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Vídeos</title>
+		<meta name="viewport" content="width=device-width,inicial-scale=1,maximum-scale=1">
+		<link rel="stylesheet" href="css/reset.css" type="text/css">
+		<link rel="stylesheet" href="css/estiloMenu.css" type="text/css">
+		<link rel="stylesheet" href="css/estiloVideo.css" type="text/css">
+
+		<style type="text/css">
+			/* Selector de Identificación */
+			li#info {
+				position: relative;
+			}
+			
+			/* Selector de Clase */
+			ul.submenu {
+				position:absolute;
+				z-index:2;
+				background:#34495E;
+				
+				visibility:hidden;
+				flex-direction: column;
+			}
+			
+			/* Pseudo Clase */
+			li#info:hover ul.submenu {
+			z-index:2;
+			visibility:visible;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<header> <!-- Inicio Encabezado -->
+			<h1>VIDEOS</h1>
+		</header> <!-- Fin Encabezado -->
+
+		<div class="c_menu"> <!-- Inicio Menú -->
+			<input type="checkbox" id="boton_m">
+			<label for="boton_m"><img src="img/boton_menu.png" alt="boton"></label>
+			<nav class="menu">
+				<ul>
+					<li>
+						<a href="index.html">Inicio</a>
+					</li>
+
+					<li id="info">
+						<a href="informacion.html">Información</a>
+
+						<ul class="submenu">
+							<li>
+								<a href="informacion.html#software">Software</a>
+							</li>
+							<li>
+								<a href="informacion.html#procesador">Procesador</a>
+							</li>
+							<li>
+								<a href="informacion.html#pantalla">Pantalla</a>
+							</li>
+						</ul>
+					</li>
+
+					<li>
+						<a href="galeria.html">Galería</a>
+					</li>
+
+					<li>
+						<a href="videos.html">Vídeos</a>
+					</li>
+
+					<li>
+						<a href="contactos.html">Contactos</a>
+					</li>
+				</ul>
+			</nav>
+		</div><!-- Fin Menú -->
+
+		<section><!-- Inicio Contenido -->
+			<div id="video_one">
+				<img src="img/oneplus.png" alt="oneplus">
+
+				<video style="width: 60%; height: 91%" controls>
+					<source src="video/OnePlus_6T.mp4" type="video/mp4">
+				</video>
+			</div>
+
+			<div id="video_huawei">
+				<iframe width="60%" height="65%" src="https://www.youtube.com/embed/fYkKY8KRIc8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+				<img src="img/huawei.png" alt="huawei">
+			</div>
+		</section><!-- Fin Contenido -->
+
+		<aside><!-- Inicio Lateral -->
+			<figure>
+				<img src="img/Oppo_Find_X.jpg" alt="oppo">
+				<figcaption>Oppo Find X</figcaption>
+			</figure>
+			<p>
+				Tiene una gran pantalla OLED de 6,4 pulgadas, que resulta en un ratio de pantalla en el cuerpo del 92,25%. Para lograr este récord lo que han diseñado es un sistema con el que las cámaras salen del cuerpo cuando abres alguna aplicación de cámara.
+			</p>
+			<p>
+				Toda la sección interior donde están las cámaras sube automáticamente, mostrando una cámara principal dual de 16 megapíxeles + 20 megapíxeles y una cámara frontal de 25 megapíxeles.
+			</p>
+			<p>
+				Puedes ver el trailer del dispositivo movil en el link.<br>
+				<mark>
+					<a href="https://youtu.be/_IGO36jxOQQ" target="_blank">Ver Vídeo</a>
+				</mark>
+			</p>
+		</aside><!-- Fin Lateral -->
+
+		<footer><!-- Inicio Pie de Página -->
+			<h4>Elaboración de Hojas de Estilo</h4>
+		</footer><!-- Fin Pie de Página -->
+	</body>
+</html>

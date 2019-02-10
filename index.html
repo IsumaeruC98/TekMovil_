@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Tek Movil</title>
+		<meta name="viewport" content="width=device-width,inicial-scale=1,maximum-scale=1">
+		<link rel="stylesheet" href="css/reset.css" type="text/css">
+		<link rel="stylesheet" href="css/estiloMenu.css" type="text/css">
+		<link rel="stylesheet" href="css/estiloIndex.css" type="text/css">
+
+		<style type="text/css">
+			/* Selector de Identificación */
+			li#info {
+				position: relative;
+			}
+			
+			/* Selector de Clase */
+			ul.submenu {
+				position:absolute;
+				z-index:2;
+				background:#34495E;
+				
+				visibility:hidden;
+				flex-direction: column;
+			}
+			
+			/* Pseudo Clase */
+			li#info:hover ul.submenu {
+			z-index:2;
+			visibility:visible;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header> <!-- Inicio Encabezado -->
+			<h1>TEK MOVIL</h1>
+		</header> <!-- Fin Encabezado -->
+
+		<div class="c_menu"> <!-- Inicio Menú -->
+			<input type="checkbox" id="boton_m">
+			<label for="boton_m"><img src="img/boton_menu.png" alt="boton"></label>
+			<nav class="menu">
+				<ul>
+					<li>
+						<a href="index.html">Inicio</a>
+					</li>
+
+					<li id="info">
+						<a href="informacion.html">Información</a>
+
+						<ul class="submenu">
+							<li>
+								<a href="informacion.html#software">Software</a>
+							</li>
+							<li>
+								<a href="informacion.html#procesador">Procesador</a>
+							</li>
+							<li>
+								<a href="informacion.html#pantalla">Pantalla</a>
+							</li>
+						</ul>
+					</li>
+
+					<li>
+						<a href="galeria.html">Galería</a>
+					</li>
+
+					<li>
+						<a href="videos.html">Vídeos</a>
+					</li>
+
+					<li>
+						<a href="contactos.html">Contactos</a>
+					</li>
+				</ul>
+			</nav>
+		</div><!-- Fin Menú -->
+
+		<section><!-- Inicio Contenido -->
+			<div id="slider"><!-- Inicio Slider -->
+				<figure>
+					<a href="informacion.html#software">
+						<img src="img/software.jpg" alt="software">
+					</a>
+
+					<a href="informacion.html#procesador">
+						<img src="img/Snapdragon_Qualcomm.jpg" alt="hardware">
+					</a>
+
+					<a href="informacion.html#pantalla">
+						<img src="img/pantalla.jpg" alt="pantalla">
+					</a>
+
+					<a href="informacion.html#software">
+						<img src="img/software.jpg" alt="software">
+					</a>
+				</figure>
+			</div><!-- Fin Slider -->
+
+			<article class="samsung">
+				<div>
+					<span>
+						Samsung Galaxy S10 <br>
+						Fecha de Presentación y Precio
+					</span>
+				</div>
+
+				<p>
+					Samsung ya ha confirmado que el Galaxy S10 y sus distintas variantes de las que ya hablamos, se presentarán unos días antes del Mobile World Congress 2019 celebrado en Barcelona
+				</p>
+				<p>
+					El Samsung Galaxy S10 se presenta el día 20 de febrero de 2019 en un evento Unpacked celebrado en San Francisco, tal y como anunciaba la propia compañía en enero. En ese mismo evento, se espera que se presenten también los Samsung Galaxy S10E y el Samsung Galaxy S10 Plus, además de una versión con 5G llamada Galaxy S10 X, y el primer teléfono plegable de la marca.
+				</p>
+				<p>
+					Como era de esperar, el Samsung Galaxy S10 será el teléfono más caro de la historia de la serie Galaxy S.todo apunta a que esta décima generación de la familia “S” superará con creces la barrera de los 1.000 euros, llegando hasta los 1.500 euros en el caso del Galaxy S10 Plus, según indican algunas fuentes.
+				</p>
+			</article>
+
+			<article class="huawei">
+				<div>
+					<span>
+						Huawei <br>
+						confirma la fecha de presentación <br>
+						de la serie P30
+					</span>
+				</div>
+
+				<p>
+					A través de un comunicado de prensa de Huawei Polonia se ha revelado que la serie insignia P30 se anunciará a finales de marzo, concretamente el día 28, según el medio polaco Telix. En dicha publicación la compañía afirma que a finales de marzo se celebrará un evento en París para anunciar su próxima serie P de teléfonos inteligentes.
+				</p>
+
+				<p>
+					Curiosamente, el año pasado la compañía utilizó la misma ubicación para anunciar los Huawei P20 y P20 Pro. La nueva serie P30 aterrizará en el mercado con tres ediciones diferentes: el P30 Lite, P30 y P30 Pro. El primero de ellos se podría presentar a finales del mes de febrero, concretamente en el Mobile World Congress que se celebrará en la ciudad de Barcelona, junto con el teléfono 5G de la firma.
+				</p>
+
+				<p>
+					Mientras que el P30 y el P30 Pro harán su puesta en escena en el evento de París del mes de marzo. De momento toca esperar unas semanas más para conocer de forma oficial todos los detalles de los próximos buques insignia de Huawei.
+				</p>
+			</article>
+		</section><!-- Fin Contenido -->
+		
+		<footer><!-- Inicio Pie de Página -->
+			<h4>Elaboración de Hojas de Estilo</h4>
+		</footer><!-- Fin Pie de Página -->
+	</body>
+</html>
